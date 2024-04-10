@@ -14,7 +14,7 @@
 
 ## 🖥️코딩테스트 사이트
 
-[프로그래머스](https://www.programmers.co.kr/){:target="_blank"}
+[프로그래머스](https://www.programmers.co.kr/)
 
 ### 🗣️언어
 
