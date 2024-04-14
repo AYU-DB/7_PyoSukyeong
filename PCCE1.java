@@ -1,3 +1,9 @@
+/* 출력
+Spring is beginning
+13
+310
+*/
+
 public class PCCE1 {
     public static void main(String[] args) {
         String msg = "Spring is beginning";
