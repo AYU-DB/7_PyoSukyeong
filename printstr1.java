@@ -3,7 +3,7 @@ str이 n번 반복된 문자열을 만들어 출력하는 코드를 작성해 �
 
 import java.util.Scanner;
 
-public class Solution {
+public class printstr1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
