@@ -17,3 +17,13 @@ String szStringInt = Integer.toString(n);
 long L = 100;
 String szStringLong = Long.toString(L);
 ```
+
+3. String equal [printstr7.java]
+```
+        String big = ">";
+        String equal = "=";
+        
+        boolean = big.equals(equal); // false
+        boolean = big.equals(big); // true
+
+```
