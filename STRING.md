@@ -20,10 +20,22 @@ String szStringLong = Long.toString(L);
 
 3. String equal [printstr7.java]
 ```
-        String big = ">";
-        String equal = "=";
+String big = ">";
+String equal = "=";
         
-        boolean = big.equals(equal); // false
-        boolean = big.equals(big); // true
+boolean = big.equals(equal); // false
+boolean = big.equals("="); // false
 
+boolean = big.equals(big); // true
+boolean = big.equals(">"); // true
+
+```
+
+4. Check String null or Empty [code.java]
+```
+String str1 = "";
+String str2 = null;
+
+str1.isEmpty(); // true
+str2 == null; //true
 ```
