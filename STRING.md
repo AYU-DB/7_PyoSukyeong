@@ -39,3 +39,13 @@ String str2 = null;
 str1.isEmpty(); // true
 str2 == null; //true
 ```
+
+5. String length [printstr2.java]
+```
+String a = sc.next();
+        
+for(int i = 0; i < a.length(); i++) {
+    char c = a.charAt(i);
+    System.out.println(c);
+}
+```
