@@ -6,3 +6,23 @@
 int [] arr = {1, 2, 3};
 System.out.println(arr.length) // arr 개수 출력 (3)
 ```
+
+2. Array declear [array3.java]
+```
+int answer[] = new int [(개수)];
+```
+
+3. Array copy
+```
+int[] arr = {1, 2, 3, 4, 5};
+int[] newArr = arr.clone(); // newArr = {1, 2, 3, 4, 5};
+```
+```
+int[] arr = {1, 2, 3, 4, 5};
+
+//All
+int[] newArr = Arrays.copyOf(arr, arr.length); // newArr = {1, 2, 3, 4, 5};
+
+//Range (0 ~ 2)
+int[] partialNewArr = Arrays.copyOf(arr, 3); // partialNewArr = {1, 2, 3};
+```
